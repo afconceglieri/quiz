@@ -14,6 +14,7 @@ exports.answer = function(req,res){
 	}
 };
 
+//GET /autor
 exports.author=function(req,res){
 	res.render("author");
 };
